@@ -9,10 +9,10 @@ const ThemeToggler = () =>{
     return(
         <div
         onClick={()=>{
-            setThemeMode(themeMode ===  "lght" ? "dark" :"light")
+            setThemeMode(themeMode ===  "light" ? "dark" :"light")
         }}
         >
-         <span>{themeMode === "light" ?"Turn Off":"Lights On"}</span>
+         <button>{themeMode === "light" ?"Turn Off":"Lights On"}</button>
         </div>
     )
 }

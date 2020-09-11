@@ -7,7 +7,7 @@ import AppTheme from "../colors"
 
 const HeroSection = () =>{
   
-
+//imp part below 2 lines
     const theme = useContext(ThemeContext)[0]
     const currentTheme = AppTheme[theme]
 
@@ -29,11 +29,11 @@ const HeroSection = () =>{
               color:"#FFF",
               border:`${currentTheme.border}`
           }}
-          ></button>
+          >Click Me</button>
         </div>
     )
 
 }
 
 
-export default AppTheme;
+export default HeroSection;
